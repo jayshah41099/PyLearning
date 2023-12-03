@@ -9,8 +9,15 @@ roadmap - https://whimsical.com/dsa-roadmap-codeandebug-2ERY7B6qco2zg5LdawHsLE
     - Data Types
         - Data_types.py
         - Variable-Data_type-Practice.py
+    - Conditional Statements
+        - Conditional_Practice.py
+    - Loops
+        - Loops-practice.py
+    - Strings
         - String-Practice.py
-        
+    - Arrays
+        - array-practice.py
+
 
 1  Insertion_sort.py - it starts the first loop in right direction and second loop will go in left from the chosen point.
  

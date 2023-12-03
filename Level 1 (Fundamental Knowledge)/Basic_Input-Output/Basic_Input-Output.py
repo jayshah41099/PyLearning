@@ -46,3 +46,22 @@ print("Hello \n Python")
 # inserting text in between of output (conacatination: + won't work here, only for variables)
 print(3, "plus", 4, "is equsl to ", 7)
 
+# Declare an integer variable num. Try taking a number from the console and assign it to num. Output num to the console.
+num = int(input())
+print(num)
+
+"""
+Create a calculator. Initialize the variables a and b based on two user inputs. Declare an integer variable sum 
+and store the value of addition of a and b. Declare an integer variable diff and store the value of subtraction of a and b
+Output sum and diff to the console on separate lines.
+"""
+a = int(input())
+b = int(input())
+sum = a + b
+diff = a - b
+print(sum)
+print(diff)
+
+# Declare a string variable x. Accept a text user input and store it in x. Output and print to the console Hello before the user defined name.
+x = input()
+print("Hello ", x)
