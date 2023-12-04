@@ -1,5 +1,4 @@
-# PyLearning - contains code to prep and catch up on python.
-# Data Structure and Algorithm in python
+# PyLearning - Data Structure and Algorithm in python
 
 roadmap - https://whimsical.com/dsa-roadmap-codeandebug-2ERY7B6qco2zg5LdawHsLE
 
@@ -15,13 +14,17 @@ roadmap - https://whimsical.com/dsa-roadmap-codeandebug-2ERY7B6qco2zg5LdawHsLE
         - Loops-practice.py
     - Strings
         - String-Practice.py
-    - Arrays
-        - array-practice.py
+    - List
+        - List-practice.py
+    - Functions
+        - Functions-practice.py
+- Level 2 (Time complexity Basics)
+- Level 3 (Arrays)
+    - Array_Info.txt
+    - Array-practice.py
 
 
 1  Insertion_sort.py - it starts the first loop in right direction and second loop will go in left from the chosen point.
- 
-2  List_quiz_prep.py - it is a set of questions around list topic
  
 3  Selection_sort.py - it goes through charcter by charcter and swaps them based on lower and higher number.
  
