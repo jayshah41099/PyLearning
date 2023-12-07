@@ -127,6 +127,27 @@ IList = [1, 2, 3, 4, 5, 6, 7]
 pow2 = [2* x for x in IList]
 print(pow2)
 
+# print the list  item that contains "a, e, i, o, u" in the name.
+Item = ["Hello", "Grow", "BMW", "fly", "slow", "cry", "crow"]
+vowel = ["a", "e", "i", "o", "u"]
+new_Item = []
+
+for i in Item:
+  for j in vowel:
+    if j in i:
+      new_Item.append(i)
+      break
+
+print(new_Item)
+  
+# list comprehension to create new list if the a char exists in the string.
+# list comprehension syntax - newlist = [expression for item in iterable if condition == True]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+
+#  
+
 '''
 
 
