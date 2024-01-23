@@ -1,3 +1,4 @@
+# bubble_sort.py - it goes from bottom to top in reverse order pushes(swaps) lower charcter upwards and sorts it.
 
 def bubble_sort(list):
     for i in range(len(list)):

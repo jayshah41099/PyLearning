@@ -1,0 +1,43 @@
+Time complexity is a measure of the amount of time taken by an algorithm to run as a function of the size of its input. 
+It is usually expressed using Big O notation, which describes the upper bound of the time complexity, giving the worst-case 
+scenario regarding time taken 12.
+
+For beginners, it’s important to understand that time complexity is not the same as the actual time required to execute a 
+particular code. Instead of measuring the actual time required in executing each statement in the code, time complexity 
+considers how many times each statement executes 
+
+Big O notation is a way of measuring the performance of an algorithm based on how it scales with the size of its input. It is 
+usually expressed using mathematical notation, which describes the upper bound of the time complexity, giving the worst-case 
+scenario regarding time taken 12.
+______________________________________________________________________________________________________________________________
+
+To calculate the time complexity of a Python code, you can follow these steps:
+
+Identify the algorithm used in the code.
+Determine the number of times each statement in the code executes.
+Express the time taken by the algorithm as a function of the size of its input using Big O notation.
+_______________________________________________________________________________________________________________________________
+
+Code Optimization to reduce time complexity:
+
+Optimizing code to reduce its time complexity can be achieved by optimizing the algorithm used in the code. Here are some tips to
+help you optimize your code:
+
+1. Reduce the number of loops: Loops are one of the most time-consuming operations in Python. Therefore, it’s important to 
+reduce the number of loops in your code as much as possible. You can use list comprehensions, map, and filter functions to 
+replace loops.
+
+2. Use built-in functions: Python has many built-in functions that are optimized for performance. Using these functions can help 
+you reduce the time complexity of your code. For example, you can use the sum() function instead of a loop to calculate the sum 
+of a list.
+
+3. Use data structures: Using the right data structure can help you optimize your code. For example, using a dictionary instead 
+of a list can help you reduce the time complexity of your code.
+
+4. Avoid unnecessary calculations: Avoid performing unnecessary calculations in your code. For example, if you need to calculate 
+the square root of a number, you can use the math.sqrt() function instead of calculating it manually.
+
+5. Use memoization: Memoization is a technique that can help you optimize recursive functions. It involves storing the results 
+of expensive function calls and returning the cached result when the same inputs occur again.
+______________________________________________________________________________________________________________________________
+

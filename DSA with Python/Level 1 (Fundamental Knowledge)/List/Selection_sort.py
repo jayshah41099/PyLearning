@@ -1,3 +1,4 @@
+# Selection_sort.py - it goes through charcter by charcter and swaps them based on lower and higher number.
 
 def selection_sort(list):
     for i in range (len(list) - 1):

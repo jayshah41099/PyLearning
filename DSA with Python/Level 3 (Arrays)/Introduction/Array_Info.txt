@@ -1,0 +1,20 @@
+
+1. What is an array?
+
+    - An array is a data structure in Python that can store multiple values of the same data type under a single variable name. 
+      It is similar to a list, but unlike a list, all the elements in an array must be of the same data type. Arrays are not 
+      built-in data types in Python, but you can use the `array` module to work with arrays in Python ¹⁴.
+
+2. Basic characteristics of arrays:
+
+    - **Contiguous memory:** In an array, the elements are stored in contiguous memory locations. This means that the elements 
+        are stored one after the other in memory, making it easy to access them using their index.
+
+    - **Fixed size:** The size of an array is fixed at the time of creation. Once an array is created, you cannot change its 
+        size. If you need to add or remove elements from an array, you need to create a new array with the desired size and copy 
+        the elements from the old array to the new array.
+        
+    - **Indexed elements:** Each element in an array is assigned an index number, starting from 0. You can access the elements 
+        of an array using their index number. For example, if you have an array `arr` with 5 elements, you can access the first 
+        element using `arr[0]`, the second element using `arr[1]`, and so on.
+

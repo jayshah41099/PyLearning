@@ -1,0 +1,35 @@
+roadmap - https://whimsical.com/dsa-roadmap-codeandebug-2ERY7B6qco2zg5LdawHsLE
+
+- Level 1 ( Fundamental Knowledge)
+    - Basic Input/Output
+        - Basic_Input-Output.py
+    - Data Types
+        - Data_types.py
+        - Variable-Data_type-Practice.py
+    - Conditional Statements
+        - Conditional_Practice.py
+    - Loops
+        - Loops-practice.py
+    - Strings
+        - String-Practice.py
+    - List
+        - List-practice.py
+        - Sort-List.py
+        - Selection_sort.py
+        - Insertionn_sort.py
+        - bubble_sort.py
+    - Functions
+        - Functions-practice.py
+- Level 2 (Time complexity Basics)
+    - Time_complexity.txt
+- Level 3 (Arrays)
+    - Introduction
+        - Array_Info.txt
+    - Array Declaration and Initialization
+        - Array_Declaration_Initialization.py
+    - Accessing Elememts
+    - Operations
+    - Multi-Dimensional
+    - Manipulation
+    - Traversal
+    - Subarrays

@@ -109,7 +109,7 @@ print(fList)
 gList = [10, 20, 30, 40]
 [print(x) for x in gList]
 
-'''
+
 for x in gList:
     print(x)
 
@@ -120,19 +120,53 @@ i = 0
 while i < len(gList):
   print(gList[i])
   i = i + 1
-'''
 
 # multiply the each charcter of list by 2 use minimal writing 
 IList = [1, 2, 3, 4, 5, 6, 7]
 pow2 = [2* x for x in IList]
 print(pow2)
 
-'''
+# you copy list to different variable using copy method
+CList = ["apple", "banana", "cherry"]
+NList = CList.copy()
+print(NList)
 
 
-# Question 5 - print out following list as a single string.
+# Join the two list using + operator, append() method, extend() method
+List1 = ["a", "b", "c"]
+List2 = [1, 2, 3]
+List3 = ["x", 4, "y", 5, "z", 6]
+
+# + operator
+List4 = List1 + List2
+print(List4)
+
+# append() method
+for x in List2:
+  List1.append(x)
+
+print(List1)
+
+# extend() method
+List2.extend(List3)
+print(List2)
+
+# Using join method to convert list in a string
 myList = ["Hello", "Python"]
 print(" ".join(myList))
 
-
-'''
+# method you can use with list
+"""
+Method	Description
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+"""

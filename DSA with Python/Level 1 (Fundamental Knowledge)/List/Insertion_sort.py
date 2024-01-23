@@ -1,3 +1,5 @@
+# Insertion_sort.py - it starts the first loop in right direction and second loop will go in left from the chosen point.
+
 def insertion_sort(list):
     for i in range (1, len(list)):
         currentnumber = list[i]
